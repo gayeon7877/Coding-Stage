@@ -1,0 +1,26 @@
+#work{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  scroll-snap-align: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 200px;
+  background-color: rgb(233, 206, 210, 0.3);
+}
+
+
+.skill_list > img {
+  margin-left: 12%;
+}
+
+#skill_img {
+  width: 10%;
+  margin-top: 80px;
+}
+
+/* 이미지 확대 애니메이션 */
+#skill_img:hover {
+  transform: scale(1.8, 1.8);
+  transition: all 1.5s ease;
+}

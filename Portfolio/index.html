@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--웹사이트 제목-->
+    <title>Portfolio</title>
+    <!--CSS 연결-->
+    <link rel="stylesheet" href="style.css" />
+    <!--Favicon-->
+    <link rel="shortcut icon" href="./src/cherry.jpg" type="image/x-icon" />
+  </head>
+    
+</head>
+<body>
+    <section>
+        <nav class="header">
+          <h1>
+            <!-- 홈화면으로 이동할 수 있도록 href값을 #으로 준다 -->
+            <a class="header__homelink" href="http://127.0.0.1:5500/index.html#">
+              Effy__ee.log
+            </a>
+          </h1>
+        
+          <nav class="header__nav">
+            <ul>
+              <li class="header__nav-item">
+                <a href="http://127.0.0.1:5500/index.html#info">ABOUT</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="http://127.0.0.1:5500/index.html#work">SKILLS</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="http://127.0.0.1:5500/index.html#footer">CONTACT</a>
+              </li>
+              
+            </ul>
+          </nav>
+        </nav>
+
+        <section class="intro" id="intro">
+          <div class="intro__dark">
+            <div class="intro__type">
+                <!-- 한줄 소개와 영어 소개 -->
+              <div>
+                    <!-- 스크린 리더가 읽지 않게 -->
+                <span aria-hidden="true">👋</span> 
+                안녕하세요! 저는 양가연이라고 합니다<br>
+                '0'과 '1'로 이루어진 일상에서 저만의 감성을 지켜내는<br> 23살 공대생입니다<br>
+                <p class="english_comment">
+                  Hello, I am a college student, and I major Computer engineering. <br>
+                  I enjoy watching movies, listening to music and going to art Exhibitions when I'm free. <br>
+                  
+              </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="info" id="info">
+          <h2>ABOUT ME</h2>
+          <p>
+            <br>
+             어쩌다 보니 공대에 와서 컴퓨터공학을 전공하게 된 저는 웹 개발과 앱 개발 등을 경험해보고 흥미를 느끼게 되었습니다.
+          </p>
+          <video src="./src/video.mp4" controls>text</video>
+              <br>
+          <p>
+            최근에는 Machine Learning, AR/VR 등등 여러 분야에 관심을 갖고 즐겁게 진로를 탐색해나가고 있습니다.<br><br>
+          </p>
+
+          <h1 class="info__title">
+            My Life
+          </h1>
+       
+        <div class="MyLife">
+          <ul class="MyLife__list">
+            <li><span>유년기</span></li>
+            <li><span>아동기</span></li>
+            <li><span>청소년기</span></li>
+            <li><span>청년기</span></li>
+            <li><span>중년기</span></li>
+            <li><span>노년기</span></li>
+            <div class="MyLife__progress"></div>
+          </ul>
+        </div>
+            
+        </section>
+
+        <section class="work" id="work">
+          <h2>SKILLS</h2>
+          <span class="skill_list">
+              <img src="./src/Html.png" alt="html_img" id="skill_img">
+        <img src="./src/css.png" alt="css_img" id="skill_img">
+        <img src="./src/js.png" alt="js_img" id="skill_img">
+        <img src="./src/react.png" alt="react_img" id="skill_img">
+          </span>
+        </div>
+        </section>
+
+        <footer class="footer" id="footer">
+            <h1 class="contact">CONTACT ME</h1>
+            <div class="address">
+              <a href="https://github.com/gayeon7877">GITHUB</a>
+              <a href="https://velog.io/@gayean01">BLOG</a>
+            </div>
+        </footer>
+
+    </section>
+</body>
+</html>

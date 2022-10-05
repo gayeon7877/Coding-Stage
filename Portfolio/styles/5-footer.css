@@ -1,0 +1,22 @@
+#footer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100px;
+  scroll-snap-align: center;
+  padding-top: 200px;
+  background-color: rgb(233, 206, 210, 0.3);
+}
+
+
+.contact {
+  padding: auto;
+  font-size: 45px;
+  border-bottom: 2px solid black;
+}
+
+.address > a {
+  font-size: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
