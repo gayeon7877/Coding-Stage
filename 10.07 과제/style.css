@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap');
+
+*{
+    font-family: 'Noto Serif KR', serif;
+}
+
+body{
+    margin: 100px;
+}
+.week_section{
+    
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
+.weather_section{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.text{
+    margin-top: 50px;
+    margin-left: 400px;
+    font-size: 20px;
+    font-weight: bold;
+}
